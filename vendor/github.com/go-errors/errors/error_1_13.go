@@ -44,9 +44,9 @@ func Is(e error, original error) bool {
 // A non-nil error returned by Join implements the Unwrap() []error method.
 //
 // For more information see stdlib errors.Join.
-func Join(errs ...error) error {
-	return baseErrors.Join(errs...)
-}
+// func Join(errs ...error) error {
+// 	return baseErrors.Join(errs...)
+// }
 
 // Unwrap returns the result of calling the Unwrap method on err, if err's
 // type contains an Unwrap method returning error.
