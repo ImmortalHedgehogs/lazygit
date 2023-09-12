@@ -1,9 +1,8 @@
 # see https://github.com/JamesIves/github-sponsors-readme-action
 name: Generate Sponsors README
 on:
-  push:
-    branches:
-      - master
+  workflow_dispatch:
+    
 jobs:
   deploy:
     runs-on: ubuntu-latest
