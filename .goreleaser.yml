@@ -4,5 +4,3 @@ builds:
     binary: bin/program
     goos:
       - linux
-      - darwin
-      - windows
