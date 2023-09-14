@@ -4,3 +4,5 @@ builds:
     binary: bin/program
     goos:
       - linux
+    ignore:
+      - goos: linux 386
