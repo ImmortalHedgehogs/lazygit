@@ -17,6 +17,7 @@ test/repos/repo
 coverage.txt
 
 # Binaries
+dist/
 lazygit
 lazygit.exe
 
